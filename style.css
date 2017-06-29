@@ -1,5 +1,7 @@
 * {
   background-color: #646464;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -10,17 +12,27 @@ p {
   font-family: Roboto, sans-serif;
 }
 
-div.Navigation {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
 #heading {
-  margin: auto;
-  text-align: center;
-  display:block;
   width: 100%;
   border: 5px solid black;
 }
+
+
+.navigation {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+  border: 1px solid black;
+}
+.navigation li a {
+  background-color: #808080;
+  padding: 8px 15px;
+  font-weight: 800;
+  border: 1px solid black;
+	float: left;
+}
+.navigation li a:hover {
+		color: #c00;
+		background-color: #fff; }
