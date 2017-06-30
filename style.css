@@ -1,22 +1,45 @@
 /* ALL CODE WRITTEN BY MITCHELL KARMEN AND MEGAN BUTLER */
 
 * {
-  background-color: #646464;
   font-family: Roboto, sans-serif;
   box-sizing: border-box;
 }
 
+head {
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+
 h1 {
   font-family: Oswald, serif;
+  text-align: center;
 }
 
 p {
   font-family: Roboto, sans-serif;
 }
 
+ul {
+
+}
+
+li {
+
+}
+
+body {
+  background-color: #777777;
+}
+
 #heading {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  font-size: 24px;
   width: 100%;
   border: 5px solid black;
+  display: block;
 }
 
 
@@ -26,15 +49,22 @@ p {
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
-  border: 1px solid black;
 }
 .navigation li a {
-  background-color: #808080;
+  font-family: Open Sans, sans-serif;
+  color: lightgrey;
+  font-size: 18px;
+  background-color: black;
   padding: 8px 15px;
-  font-weight: 800;
-  border: 1px solid black;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  width: 16.66%;
 	float: left;
 }
+
 .navigation li a:hover {
-		color: #c00;
-		background-color: #fff; }
+  color: black;
+	background-color: #E0D32C !important;
+  }
